@@ -74,14 +74,7 @@ const car = {
 
 car.age = 14;
 console.log({car});
-const car = {
-    make: 'Ford',
-    model: 'Ranger',
-    year: 2023,
-    displayInfo: function() {
-       console.log(`Make: ${this.make}, Model: ${this.model}, Year: ${this.year}`);
-    },
-  };
+
 
   function addAgeMethod (car) {
     let currentYear = new Date().getFullYear();
